@@ -17,10 +17,15 @@ body {
 
 ul.nav-list>li {
     margin: 46px 0 0 35px;
-    color: #FFFFFF;
+    color: #cdcdcd;
     font-size: 15px;
     font-weight: 400;
     cursor: pointer;
+}
+
+ul.nav-list>li:hover {
+    color: #FAFAFA;
+    transition: 1s;
 }
 
 .logo {
@@ -95,7 +100,7 @@ ul.nav-list>li {
 .puppy-img {
     width: 698px;
     height: 728px;
-    margin-top: 79px;
+    margin-top: 80px;
 }
 
 .wrapped-sections {
@@ -135,4 +140,125 @@ ul.nav-list>li {
 
 .wrapped-about-text {
     margin-right: 215px;
+}
+
+.our-friends {
+    height: 877px;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-friends-title {
+    color: #545454;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    width: 400px;
+    margin-bottom: 60px;
+}
+
+.arrow-left {
+    border: solid 2px #F1CDB3;
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    background: url(assets/img/Arrow.svg) no-repeat;
+    background-position: center;
+    margin-right: 53px;
+}
+
+.arrow-left:hover {
+    background-color: #fddcc4;
+    transition: 1s;
+}
+
+.arrow-right:hover {
+    background-color: #fddcc4;
+    transition: 1s;
+}
+
+.arrow-right {
+    border: solid 2px #F1CDB3;
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    background: url(assets/img/Arrow1.svg) no-repeat;
+    background-position: center;
+}
+
+.pets {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.katrine {
+    width: 270px;
+    height: 435px;
+    background-color: #FAFAFA;
+    margin-right: 90px;
+}
+
+.jennifer {
+    width: 270px;
+    height: 435px;
+    background-color: #FAFAFA;
+    margin-right: 90px;
+}
+
+.woody {
+    width: 270px;
+    height: 435px;
+    background-color: #FAFAFA;
+    margin-right: 53px;
+}
+
+.pet-name {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin-top: 30px;
+    color: #292929;
+}
+
+.learn-more-btn {
+    width: 187px;
+    height: 52px;
+    border: solid 2px #F1CDB3;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 41.5px;
+}
+
+.learn-more-btn:hover {
+    background-color: #fDDcc4;
+    transition: 1s;
+}
+
+.pet-card:hover {
+    background-color: #FFFFFF;
+    transition: 1s;
+}
+
+.get-to-know-btn {
+    width: 261px;
+    height: 52px;
+    background-color: #F1CDB3;
+    border-radius: 100px;
+    color: #292929;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.06em;
+    margin-top: 60px;
+}
+
+.get-to-know-btn:hover {
+    background-color: #fddcc4;
+    transition: 1s;
 }

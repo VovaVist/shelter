@@ -1,7 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     width: 1280px;
     margin: auto;
+}
+
+.link {
+    text-decoration: none;
+    color: #cdcdcd;
 }
 
 .header {
@@ -21,17 +29,21 @@ ul.nav-list>li {
     font-size: 15px;
     font-weight: 400;
     cursor: pointer;
+    
 }
 
-ul.nav-list>li:hover {
+ul.nav-list>li.active>:hover {
     color: #FAFAFA;
-    transition: 1s;
+    transition: 0.1s;
+    border-bottom: 3px solid #F1CDB3;
+    padding-bottom: 7px;
 }
 
 .logo {
     margin-top: 30px;
     margin-left: 40px;
     line-height: 35px;
+    cursor: pointer;
 }
 
 .logo-text {
@@ -243,7 +255,7 @@ ul.nav-list>li:hover {
 
 .pet-card:hover {
     background-color: #FFFFFF;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .get-to-know-btn {
@@ -446,3 +458,7 @@ ul.nav-list>li:hover {
     width: 260px;
 }
 
+.innered-nav-element {
+    border-bottom: 3px solid #f1cdb3;
+    padding-bottom: 6px;
+}

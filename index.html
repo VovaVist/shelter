@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
@@ -17,10 +18,10 @@
         </div>
         <nav>
             <ul class="nav-list">
-                <li>About the shelter</li>
-                <li>Our pets</li>
-                <li>Help the shelter</li>
-                <li>Contacts</li>
+                <li class="innered-nav-element"><a href="#about" class="link" style="color: #fafafa;">About the shelter</a></li>
+                <li class="active"><a href="#our-pets" class="link">Our pets</a></li>
+                <li class="active"><a href="#help" class="link">Help the shelter</a></li>
+                <li class="active"><a href="#contacts" class="link">Contacts</a></li>
             </ul>
         </nav>
     
@@ -40,7 +41,7 @@
         </div>
     </div>
     </div>
-    <div class="about">
+    <div class="about" id="about">
         <div class="wrapped-about-pets-img">
             <img src="assets/img/about-pets.png" alt="pets" class="about-pets-img">
         </div>
@@ -66,7 +67,7 @@
             them alone.</p>    
         </div>
     </div>
-    <div class="our-friends">
+    <div class="our-friends" id="our-pets">
         <h2 class="our-friends-title">Our friends who <br>
             are looking for a house</h2>
         <div class="pets">
@@ -92,7 +93,7 @@
             <button class="get-to-know-btn">Get to know the rest</button>
         </div>
     </div>
-    <div class="help">
+    <div class="help" id="help">
         <div class="wrapped-help-title">
             <h2 class="help-title">How you can help our shelter</h2>
         </div>
@@ -154,7 +155,7 @@
                faucibus.</p>
         </div>
     </div>
-    <footer class="footer">
+    <footer class="footer" id="contacts">
         <div class="contacts">
             <h2 class="footer-title footer-title1">For question and suggestions</h2>
             <div class="footer-text1">

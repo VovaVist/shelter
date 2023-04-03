@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+.body {
     width: 1280px;
     margin: auto;
 }
@@ -21,6 +21,10 @@ body {
     display: flex;
     list-style: none;
     margin-right: 40px;
+}
+
+.container {
+    display: none;
 }
 
 ul.nav-list>li {
@@ -463,3 +467,416 @@ ul.nav-list>li.active>:hover {
     border-bottom: 3px solid #f1cdb3;
     padding-bottom: 6px;
 }
+
+@media (max-width:768px) {
+    .body {
+        max-width: 768px;
+    }
+
+    .puppy-img {
+        width: 569px;
+        height: 593px;
+        margin-left: 15%;
+    }
+
+    .header {
+        width: 768px;
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .not-only {
+        max-width: 768px;
+        height: 995px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .wrapped-sections {
+        background: url(assets/img/start-screen-gradient-background.png);
+        width: 768px;
+    }
+
+    .not-only-button {
+        margin-left: 25%;
+    }
+
+    .about {
+        max-width: 768px;   
+        height: 1048px;  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-pets-img {
+        width: 300px;
+        height: 408px;
+        margin-left: 0;
+    }
+
+    .wrapped-about-text {
+        order: 0;
+        margin-right: 0;
+    }
+
+    .wrapped-about-pets-img {
+        order: 2;
+        margin-top: 80px;
+    }
+
+    .our-friends {
+        max-width: 768px;
+        height: 877px;
+    }
+
+    .woody {
+        display: none;
+    }
+
+    .katrine {
+        margin-right: 40px;
+    }
+
+    .jennifer {
+        margin-right: 12px;
+    }
+
+    .arrow-left {
+        margin-right: 12px;
+    }
+
+    .help {
+        max-width: 768px;
+        height: 779px;
+    }
+
+    .help-card {
+        margin-right: 60px;
+        width: 140px;
+        height: 100px;
+    }
+
+    .wrapped-help-cards-1 {
+       margin-top: 40px;
+       margin-left: 40px;
+    }
+
+    .wrapped-help-cards-2 {
+        margin-top: 150px;
+        margin-left: 40px;
+    }
+
+    .in-addition {
+        display: flex;
+        flex-direction: column;
+        max-width: 768px;
+        height: 783px;
+        align-items: center;
+    }
+
+    .in-addition-content {
+        order: 0;
+    }
+
+    .in-addition-img {
+        margin-top: 60px;
+        order: 1;
+    }
+
+    .footer {
+        max-width: 768px;
+        height: 639px;
+        display: flex;
+        flex-wrap: wrap;
+        background: url(assets/img/footer-gradient-background.png);
+    }
+
+    .contacts {
+        margin-top: 30px;
+        margin-left: 64px;
+    }
+
+    .adress {
+        margin-top: 30px;
+        margin-right: 64px;
+    }
+
+    .footer-img {
+        margin-left: 234px;
+        margin-top: 65px;
+    }
+  }
+
+  @media (max-width:320px) {
+
+    .body {
+        width: 320px;
+    }
+
+    .header {
+        width: 320px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .container {
+        display: block;
+        margin-top: 40px;
+        margin-right: 20px;
+    }
+
+    .b1, .b2, .b3 {
+        width: 30px;
+        height: 2px;
+        background-color: #f1cdb3;
+        margin: 10px 0;
+        transition: 0.3s;
+    }
+
+    .wrapped-sections {
+        width: 320px;
+        height: 823px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .not-only {
+        width: 320px;
+    }
+
+    .puppy-img {
+        width: 260px;
+        height: 272px;
+        margin-left: 0;
+    }
+
+    .not-only-title {
+        font-size: 25px;
+        width: 200px;
+        height: 64px;
+        line-height: 32.5px;
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    .not-only-paragraph {
+        width: 270px;
+        display: inline-block;
+    }
+
+    .wrapped-not-only-text-block {
+    
+       max-width: 280px;
+    }
+
+    .not-only-button {
+        margin-left: 5%;
+    }
+
+    .about {
+        max-width: 320px;
+        height: 974px;
+    }
+
+    .about-title {
+        font-size: 25px;
+        line-height: 32.5px;
+        width: 270px;
+        text-align: center;
+    }
+
+    .about-paragraph {
+        width: 270px;
+    }
+
+    .about-pets-img {
+        width: 260px;
+        height: 353px;
+    }
+
+    .our-friends {
+        max-width: 320px;
+        height: 791px;
+    }
+
+    .our-friends-title {
+        font-size: 25px;
+        line-height: 32.5px;
+        max-width: 320px;
+    }
+
+    .jennifer {
+        display: none;
+    }
+
+    .katrine {
+        margin-left: 0;
+        margin-right: 0;
+        order: 0;
+    }
+
+    .pets {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .arrow-left {
+        order: 1;
+        margin-right: 0;
+    }
+
+    .arrow-right {
+        order: 2;
+        margin-left: 80px;
+    }
+
+    .get-to-know-btn {
+        margin-top: 42px;
+    }
+
+    .help {
+        max-width: 320px;
+        height: 630px;
+    }
+
+    .help-title {
+        font-size: 25px;
+        line-height: 32.5px;
+        margin-top: 42px;
+    }
+
+    .help-cards {
+        width: 320px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .help-card {
+        width: 100px;
+        height: 100px;
+        margin: 0;
+    }
+
+    .toys {
+        display: none;
+    }
+
+    .bowls-and-cups {
+        display: none;
+    }
+
+    .shampoos {
+        display: none;
+    }
+
+    .collars-leashes {
+        display: none;
+    }
+
+    .sleeping-areas {
+        display: none;
+    }
+
+    .transportation {
+        margin-left: 30px;
+    }
+
+    .medicines {
+        margin-left: 30px;
+        text-align: center;
+    }
+
+    .pet-food {
+        margin-right: 10px;
+    }
+
+    .in-addition {
+        width: 320px;
+        height: 542px;
+    }
+
+    .in-addition-title {
+        font-size: 25px;
+        line-height: 32.5px;
+        text-align: center;
+
+    }
+
+    .bank-name {
+        text-align: center;
+    }
+
+    .donation-btn {
+        width: 281px;
+        height: 43px;
+        margin-left: 8px;
+    }
+
+    .card-number {
+        font-size: 15px;
+
+    }
+
+    .in-addition-text {
+        width: 280px;
+        text-align: center;
+    }
+
+    .in-addition-img {
+        width: 260px;
+        height: 135px;
+    }
+
+    .footer {
+        width: 320px;
+        height: 809px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-title {
+        font-size: 25px;
+        line-height: 32.5px;
+        text-align: center;
+    }
+
+    .footer-img {
+        width: 260px;
+        height: 269px;
+        order: 2;
+        margin: 0;
+        margin-left: 30px;
+    }
+
+    .contacts {
+        order: 0;
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .adress{
+        order: 1;
+        margin: 0;
+        margin-left: 40px;
+    }
+
+    .footer-span {
+        width: 230px;
+    }
+
+    .footer-text2 {
+        margin-right: 3px;
+    }
+  }
+

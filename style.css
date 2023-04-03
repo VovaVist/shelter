@@ -1,7 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
 
-body {
+.body {
     width: 1280px;
     margin: auto;
+}
+
+.link {
+    text-decoration: none;
+    color: #cdcdcd;
 }
 
 .header {
@@ -15,18 +23,31 @@ body {
     margin-right: 40px;
 }
 
+.container {
+    display: none;
+}
+
 ul.nav-list>li {
     margin: 46px 0 0 35px;
-    color: #FFFFFF;
+    color: #cdcdcd;
     font-size: 15px;
     font-weight: 400;
     cursor: pointer;
+    
+}
+
+ul.nav-list>li.active>:hover {
+    color: #FAFAFA;
+    transition: 0.1s;
+    border-bottom: 3px solid #F1CDB3;
+    padding-bottom: 7px;
 }
 
 .logo {
     margin-top: 30px;
     margin-left: 40px;
     line-height: 35px;
+    cursor: pointer;
 }
 
 .logo-text {
@@ -95,7 +116,7 @@ ul.nav-list>li {
 .puppy-img {
     width: 698px;
     height: 728px;
-    margin-top: 79px;
+    margin-top: 80px;
 }
 
 .wrapped-sections {
@@ -136,3 +157,726 @@ ul.nav-list>li {
 .wrapped-about-text {
     margin-right: 215px;
 }
+
+.our-friends {
+    height: 877px;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-friends-title {
+    color: #545454;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    width: 400px;
+    margin-bottom: 60px;
+}
+
+.arrow-left {
+    border: solid 2px #F1CDB3;
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    background: url(assets/img/Arrow.svg) no-repeat;
+    background-position: center;
+    margin-right: 53px;
+}
+
+.arrow-left:hover {
+    background-color: #fddcc4;
+    transition: 1s;
+}
+
+.arrow-right:hover {
+    background-color: #fddcc4;
+    transition: 1s;
+}
+
+.arrow-right {
+    border: solid 2px #F1CDB3;
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    background: url(assets/img/Arrow1.svg) no-repeat;
+    background-position: center;
+}
+
+.pets {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.katrine {
+    width: 270px;
+    height: 435px;
+    background-color: #FAFAFA;
+    margin-right: 90px;
+}
+
+.jennifer {
+    width: 270px;
+    height: 435px;
+    background-color: #FAFAFA;
+    margin-right: 90px;
+}
+
+.woody {
+    width: 270px;
+    height: 435px;
+    background-color: #FAFAFA;
+    margin-right: 53px;
+}
+
+.pet-name {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin-top: 30px;
+    color: #292929;
+}
+
+.learn-more-btn {
+    width: 187px;
+    height: 52px;
+    border: solid 2px #F1CDB3;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 41.5px;
+}
+
+.learn-more-btn:hover {
+    background-color: #fDDcc4;
+    transition: 1s;
+}
+
+.pet-card:hover {
+    background-color: #FFFFFF;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.get-to-know-btn {
+    width: 261px;
+    height: 52px;
+    background-color: #F1CDB3;
+    border-radius: 100px;
+    color: #292929;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.06em;
+    margin-top: 60px;
+}
+
+.get-to-know-btn:hover {
+    background-color: #fddcc4;
+    transition: 1s;
+}
+
+.help {
+    height: 611px;
+}
+
+.help-title {
+    width: 308px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+
+.wrapped-help-title {
+    display: flex;
+    justify-content: center;
+}
+
+
+.help-name {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+    margin-top: 30px;
+}
+
+.help-card {
+    margin-right: 120px;
+}
+
+.wrapped-help-cards-1 {
+    display: flex;
+    margin-left: 127px;
+}
+
+.wrapped-help-cards-2 {
+    display: flex;
+    margin-top: 55px;
+    margin-left: 211px;
+}
+
+.help-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.in-addition {
+    height: 462px;
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.in-addition-title {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    width: 300px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+.bank-name {
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-bottom: 20px;
+}
+
+.donation-btn {
+    width: 349px;
+    height: 43px;
+    background-color: #f1cdb3;
+    border-radius: 9px;
+    margin-bottom: 20px;
+}
+
+.donation-btn:hover {
+    background-color: #fddcc4;
+    transition: 1s;
+}
+
+.card-number {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #545454;
+}
+
+.in-addition-text {
+    width: 380px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 18px;
+    color: #b2b2b2;
+}
+
+.in-addition-img {
+    width: 505px;
+    height: 261px;
+    margin-right: 30px;
+}
+
+.card-img {
+    margin-right: 15px;
+}
+
+.footer {
+    height: 350px;
+    background: url(assets/img/footer-gradient-background.png) no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-img {
+    width: 300px;
+    height: 310px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.footer-title {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    width: 260px;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    color: #f1cdb3;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+.footer-title1 {
+    margin-bottom: 40px;
+}
+
+.footer-title2 {
+    margin-bottom: 20px;
+}
+
+.footer-text1 {
+    margin-bottom: 40px;
+}
+
+.footer-text2 {
+    margin-bottom: 40px;
+}
+
+.contacts {
+    margin-top: 56px;
+    margin-left: 40px;
+}
+
+.adress {
+    margin-top: 56px;
+}
+
+.footer-icon {
+    margin-right: 20px;
+}
+
+.footer-span {
+    display: inline-block;
+    width: 260px;
+}
+
+.innered-nav-element {
+    border-bottom: 3px solid #f1cdb3;
+    padding-bottom: 6px;
+}
+
+@media (max-width:768px) {
+    .body {
+        max-width: 768px;
+    }
+
+    .puppy-img {
+        width: 569px;
+        height: 593px;
+        margin-left: 15%;
+    }
+
+    .header {
+        width: 768px;
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .not-only {
+        max-width: 768px;
+        height: 995px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .wrapped-sections {
+        background: url(assets/img/start-screen-gradient-background.png);
+        width: 768px;
+    }
+
+    .not-only-button {
+        margin-left: 25%;
+    }
+
+    .about {
+        max-width: 768px;   
+        height: 1048px;  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-pets-img {
+        width: 300px;
+        height: 408px;
+        margin-left: 0;
+    }
+
+    .wrapped-about-text {
+        order: 0;
+        margin-right: 0;
+    }
+
+    .wrapped-about-pets-img {
+        order: 2;
+        margin-top: 80px;
+    }
+
+    .our-friends {
+        max-width: 768px;
+        height: 877px;
+    }
+
+    .woody {
+        display: none;
+    }
+
+    .katrine {
+        margin-right: 40px;
+    }
+
+    .jennifer {
+        margin-right: 12px;
+    }
+
+    .arrow-left {
+        margin-right: 12px;
+    }
+
+    .help {
+        max-width: 768px;
+        height: 779px;
+    }
+
+    .help-card {
+        margin-right: 60px;
+        width: 140px;
+        height: 100px;
+    }
+
+    .wrapped-help-cards-1 {
+       margin-top: 40px;
+       margin-left: 40px;
+    }
+
+    .wrapped-help-cards-2 {
+        margin-top: 150px;
+        margin-left: 40px;
+    }
+
+    .in-addition {
+        display: flex;
+        flex-direction: column;
+        max-width: 768px;
+        height: 783px;
+        align-items: center;
+    }
+
+    .in-addition-content {
+        order: 0;
+    }
+
+    .in-addition-img {
+        margin-top: 60px;
+        order: 1;
+    }
+
+    .footer {
+        max-width: 768px;
+        height: 639px;
+        display: flex;
+        flex-wrap: wrap;
+        background: url(assets/img/footer-gradient-background.png);
+    }
+
+    .contacts {
+        margin-top: 30px;
+        margin-left: 64px;
+    }
+
+    .adress {
+        margin-top: 30px;
+        margin-right: 64px;
+    }
+
+    .footer-img {
+        margin-left: 234px;
+        margin-top: 65px;
+    }
+  }
+
+  @media (max-width:320px) {
+
+    .body {
+        width: 320px;
+    }
+
+    .header {
+        width: 320px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .container {
+        display: block;
+        margin-top: 40px;
+        margin-right: 20px;
+    }
+
+    .b1, .b2, .b3 {
+        width: 30px;
+        height: 2px;
+        background-color: #f1cdb3;
+        margin: 10px 0;
+        transition: 0.3s;
+    }
+
+    .wrapped-sections {
+        width: 320px;
+        height: 823px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .not-only {
+        width: 320px;
+    }
+
+    .puppy-img {
+        width: 260px;
+        height: 272px;
+        margin-left: 0;
+    }
+
+    .not-only-title {
+        font-size: 25px;
+        width: 200px;
+        height: 64px;
+        line-height: 32.5px;
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    .not-only-paragraph {
+        width: 270px;
+        display: inline-block;
+    }
+
+    .wrapped-not-only-text-block {
+    
+       max-width: 280px;
+    }
+
+    .not-only-button {
+        margin-left: 5%;
+    }
+
+    .about {
+        max-width: 320px;
+        height: 974px;
+    }
+
+    .about-title {
+        font-size: 25px;
+        line-height: 32.5px;
+        width: 270px;
+        text-align: center;
+    }
+
+    .about-paragraph {
+        width: 270px;
+    }
+
+    .about-pets-img {
+        width: 260px;
+        height: 353px;
+    }
+
+    .our-friends {
+        max-width: 320px;
+        height: 791px;
+    }
+
+    .our-friends-title {
+        font-size: 25px;
+        line-height: 32.5px;
+        max-width: 320px;
+    }
+
+    .jennifer {
+        display: none;
+    }
+
+    .katrine {
+        margin-left: 0;
+        margin-right: 0;
+        order: 0;
+    }
+
+    .pets {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .arrow-left {
+        order: 1;
+        margin-right: 0;
+    }
+
+    .arrow-right {
+        order: 2;
+        margin-left: 80px;
+    }
+
+    .get-to-know-btn {
+        margin-top: 42px;
+    }
+
+    .help {
+        max-width: 320px;
+        height: 630px;
+    }
+
+    .help-title {
+        font-size: 25px;
+        line-height: 32.5px;
+        margin-top: 42px;
+    }
+
+    .help-cards {
+        width: 320px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .help-card {
+        width: 100px;
+        height: 100px;
+        margin: 0;
+    }
+
+    .toys {
+        display: none;
+    }
+
+    .bowls-and-cups {
+        display: none;
+    }
+
+    .shampoos {
+        display: none;
+    }
+
+    .collars-leashes {
+        display: none;
+    }
+
+    .sleeping-areas {
+        display: none;
+    }
+
+    .transportation {
+        margin-left: 30px;
+    }
+
+    .medicines {
+        margin-left: 30px;
+        text-align: center;
+    }
+
+    .pet-food {
+        margin-right: 10px;
+    }
+
+    .in-addition {
+        width: 320px;
+        height: 542px;
+    }
+
+    .in-addition-title {
+        font-size: 25px;
+        line-height: 32.5px;
+        text-align: center;
+
+    }
+
+    .bank-name {
+        text-align: center;
+    }
+
+    .donation-btn {
+        width: 281px;
+        height: 43px;
+        margin-left: 8px;
+    }
+
+    .card-number {
+        font-size: 15px;
+
+    }
+
+    .in-addition-text {
+        width: 280px;
+        text-align: center;
+    }
+
+    .in-addition-img {
+        width: 260px;
+        height: 135px;
+    }
+
+    .footer {
+        width: 320px;
+        height: 809px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-title {
+        font-size: 25px;
+        line-height: 32.5px;
+        text-align: center;
+    }
+
+    .footer-img {
+        width: 260px;
+        height: 269px;
+        order: 2;
+        margin: 0;
+        margin-left: 30px;
+    }
+
+    .contacts {
+        order: 0;
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .adress{
+        order: 1;
+        margin: 0;
+        margin-left: 40px;
+    }
+
+    .footer-span {
+        width: 230px;
+    }
+
+    .footer-text2 {
+        margin-right: 3px;
+    }
+  }
+

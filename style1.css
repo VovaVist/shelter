@@ -15,6 +15,7 @@ body {
 .logo {
     margin-top: 30px;
     margin-left: 40px;
+    margin-bottom: 30px;
     line-height: 35px;
     cursor: pointer;
 }
@@ -287,4 +288,98 @@ ul.nav-list>li.active>:hover {
 .footer-span {
     display: inline-block;
     width: 260px;
+}
+
+
+@media (max-width:768px) {
+    .body {
+        max-width: 768px;
+    }
+
+    .header {
+        width: 768px;
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .our-friends {
+        width: 768px;
+    }
+
+
+    .pets {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+
+    .pet-card {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .scarlet {
+        display: none;
+    }
+
+    .freddie {
+        display: none;
+    }
+
+    .charly {
+        margin-left: 20px;
+    }
+
+    .sophia {
+        margin-left: 20px;
+    }
+
+    .jennifer {
+        margin-left: 20px;
+    }
+
+    .katrine {
+        margin-right: 20px;
+    }
+
+    .woody {
+        margin-right: 20px;
+    }
+
+    .timmy {
+        margin-right: 20px;
+    }
+
+    .our-pets-buttons {
+        display: flex;
+        justify-content: center;
+        margin-right: 17px;
+    }
+
+    .footer {
+        max-width: 768px;
+        height: 639px;
+        display: flex;
+        flex-wrap: wrap;
+        background: url(assets/img/footer-gradient-background.png);
+    }
+
+    .contacts {
+        margin-top: 30px;
+        margin-left: 64px;
+    }
+
+    .adress {
+        margin-top: 30px;
+        margin-right: 64px;
+    }
+
+    .footer-img {
+        margin-left: 234px;
+        margin-top: 65px;
+    }
 }

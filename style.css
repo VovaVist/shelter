@@ -256,6 +256,7 @@ ul.nav-list>li.active>:hover {
 .pet-card:hover {
     background-color: #FFFFFF;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .get-to-know-btn {

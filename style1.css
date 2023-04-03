@@ -1,0 +1,133 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 1280px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 40px;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.logo-text {
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.logo-desc {
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #545454;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+}
+
+.innered-nav-element {
+    border-bottom: 3px solid #f1cdb3;
+    padding-bottom: 6px;
+}
+
+.link {
+    text-decoration: none;
+    color: #545454;
+}
+
+ul.nav-list>li {
+    margin: 46px 0 0 35px;
+    color: #545454;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+
+ul.nav-list>li.active>:hover {
+    color: #292929;
+    transition: 0.1s;
+    border-bottom: 3px solid #F1CDB3;
+    padding-bottom: 7px;
+}
+
+.our-friends-title {
+    color: #545454;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    width: 400px;
+    margin-bottom: 60px;
+}
+
+.pet-card:hover {
+    background-color: #FFFFFF;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.pets {
+    display: flex;
+    
+}
+
+.katrine {
+    width: 270px;
+    height: 435px;
+    background-color: #FAFAFA;
+}
+
+.jennifer {
+    width: 270px;
+    height: 435px;
+    background-color: #FAFAFA;
+
+}
+
+.woody {
+    width: 270px;
+    height: 435px;
+    background-color: #FAFAFA;
+}
+
+.pet-name {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin-top: 30px;
+    color: #292929;
+}
+
+.learn-more-btn {
+    width: 187px;
+    height: 52px;
+    border: solid 2px #F1CDB3;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 41.5px;
+}
+
+.learn-more-btn:hover {
+    background-color: #fDDcc4;
+    transition: 1s;
+}

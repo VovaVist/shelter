@@ -75,7 +75,22 @@ ul.nav-list>li.active>:hover {
     letter-spacing: 0.06em;
     text-align: center;
     width: 400px;
-    margin-bottom: 60px;
+    margin-bottom: 45px;
+    margin-top: 80px;
+}
+
+.wrapped-our-friends-title {
+    display: flex;
+    justify-content: center;
+}
+
+.our-friends {
+    background-color: #f6f6f6;
+}
+
+.pet-card {
+    background-color: #FAFAFA;
+    margin-left: 40px;
 }
 
 .pet-card:hover {
@@ -84,29 +99,44 @@ ul.nav-list>li.active>:hover {
     cursor: pointer;
 }
 
-
 .pets {
     display: flex;
-    
+    flex-wrap: wrap;
 }
 
 .katrine {
     width: 270px;
     height: 435px;
-    background-color: #FAFAFA;
 }
 
 .jennifer {
     width: 270px;
     height: 435px;
-    background-color: #FAFAFA;
-
 }
 
 .woody {
     width: 270px;
     height: 435px;
-    background-color: #FAFAFA;
+}
+
+.timmy {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.charly {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.scarlet {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.freddie {
+    margin-top: 30px;
+    padding-bottom: 30px;
 }
 
 .pet-name {
@@ -130,4 +160,131 @@ ul.nav-list>li.active>:hover {
 .learn-more-btn:hover {
     background-color: #fDDcc4;
     transition: 1s;
+}
+
+.our-pets-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    padding-bottom: 100px;
+}
+
+.our-pets-btn {
+    margin-left: 20px;
+}
+
+.our-pets-right-btn {
+    height: 52px;
+    width: 52px;
+    border: 2px solid #f1cdb3;
+    border-radius: 100px;
+}
+
+.our-pets-right-btn:hover {
+    background-color: #F1CDB3;
+    transition: 0.5s;
+}
+
+.our-pets-left-btn {
+    height: 52px;
+    width: 52px;
+    border: 2px solid #cdcdcd;
+    border-radius: 100px;
+}
+
+.current-page-btn {
+    height: 52px;
+    width: 52px;
+    color: #292929;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    border-radius: 100px;
+    background-color: #F1CDB3;
+}
+
+.double-left-arrow-btn {
+    background: url(assets/img/double-left.svg) no-repeat;
+    background-position: center;
+}
+
+.left-arrow-btn {
+    background: url(assets/img/left-arrow.svg) no-repeat;
+    background-position: center;
+}
+
+.right-arrow-btn {
+    background: url(assets/img/right-arrow.svg) no-repeat;
+    background-position: center;
+}
+
+.double-right-arrow-btn {
+    background: url(assets/img/double-right.svg) no-repeat;
+    background-position: center;
+}
+
+.footer {
+    height: 350px;
+    background: url(assets/img/footer-gradient-background.png) no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-img {
+    width: 300px;
+    height: 310px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.footer-title {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    width: 260px;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    color: #f1cdb3;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+.footer-title1 {
+    margin-bottom: 40px;
+}
+
+.footer-title2 {
+    margin-bottom: 20px;
+}
+
+.footer-text1 {
+    margin-bottom: 40px;
+}
+
+.footer-text2 {
+    margin-bottom: 40px;
+}
+
+.contacts {
+    margin-top: 56px;
+    margin-left: 40px;
+}
+
+.adress {
+    margin-top: 56px;
+}
+
+.footer-icon {
+    margin-right: 20px;
+}
+
+.footer-span {
+    display: inline-block;
+    width: 260px;
 }

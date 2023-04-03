@@ -23,6 +23,10 @@ html {
     margin-right: 40px;
 }
 
+.container {
+    display: none;
+}
+
 ul.nav-list>li {
     margin: 46px 0 0 35px;
     color: #cdcdcd;
@@ -609,3 +613,270 @@ ul.nav-list>li.active>:hover {
         margin-top: 65px;
     }
   }
+
+  @media (max-width:320px) {
+
+    .body {
+        width: 320px;
+    }
+
+    .header {
+        width: 320px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .container {
+        display: block;
+        margin-top: 40px;
+        margin-right: 20px;
+    }
+
+    .b1, .b2, .b3 {
+        width: 30px;
+        height: 2px;
+        background-color: #f1cdb3;
+        margin: 10px 0;
+        transition: 0.3s;
+    }
+
+    .wrapped-sections {
+        width: 320px;
+        height: 823px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .not-only {
+        width: 320px;
+    }
+
+    .puppy-img {
+        width: 260px;
+        height: 272px;
+        margin-left: 0;
+    }
+
+    .not-only-title {
+        font-size: 25px;
+        width: 200px;
+        height: 64px;
+        line-height: 32.5px;
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    .not-only-paragraph {
+        width: 270px;
+        display: inline-block;
+    }
+
+    .wrapped-not-only-text-block {
+    
+       max-width: 280px;
+    }
+
+    .not-only-button {
+        margin-left: 5%;
+    }
+
+    .about {
+        max-width: 320px;
+        height: 974px;
+    }
+
+    .about-title {
+        font-size: 25px;
+        line-height: 32.5px;
+        width: 270px;
+        text-align: center;
+    }
+
+    .about-paragraph {
+        width: 270px;
+    }
+
+    .about-pets-img {
+        width: 260px;
+        height: 353px;
+    }
+
+    .our-friends {
+        max-width: 320px;
+        height: 791px;
+    }
+
+    .our-friends-title {
+        font-size: 25px;
+        line-height: 32.5px;
+        max-width: 320px;
+    }
+
+    .jennifer {
+        display: none;
+    }
+
+    .katrine {
+        margin-left: 0;
+        margin-right: 0;
+        order: 0;
+    }
+
+    .pets {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .arrow-left {
+        order: 1;
+        margin-right: 0;
+    }
+
+    .arrow-right {
+        order: 2;
+        margin-left: 80px;
+    }
+
+    .get-to-know-btn {
+        margin-top: 42px;
+    }
+
+    .help {
+        max-width: 320px;
+        height: 630px;
+    }
+
+    .help-title {
+        font-size: 25px;
+        line-height: 32.5px;
+        margin-top: 42px;
+    }
+
+    .help-cards {
+        width: 320px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .help-card {
+        width: 100px;
+        height: 100px;
+        margin: 0;
+    }
+
+    .toys {
+        display: none;
+    }
+
+    .bowls-and-cups {
+        display: none;
+    }
+
+    .shampoos {
+        display: none;
+    }
+
+    .collars-leashes {
+        display: none;
+    }
+
+    .sleeping-areas {
+        display: none;
+    }
+
+    .transportation {
+        margin-left: 30px;
+    }
+
+    .medicines {
+        margin-left: 30px;
+        text-align: center;
+    }
+
+    .pet-food {
+        margin-right: 10px;
+    }
+
+    .in-addition {
+        width: 320px;
+        height: 542px;
+    }
+
+    .in-addition-title {
+        font-size: 25px;
+        line-height: 32.5px;
+        text-align: center;
+
+    }
+
+    .bank-name {
+        text-align: center;
+    }
+
+    .donation-btn {
+        width: 281px;
+        height: 43px;
+        margin-left: 8px;
+    }
+
+    .card-number {
+        font-size: 15px;
+
+    }
+
+    .in-addition-text {
+        width: 280px;
+        text-align: center;
+    }
+
+    .in-addition-img {
+        width: 260px;
+        height: 135px;
+    }
+
+    .footer {
+        width: 320px;
+        height: 809px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-title {
+        font-size: 25px;
+        line-height: 32.5px;
+        text-align: center;
+    }
+
+    .footer-img {
+        width: 260px;
+        height: 269px;
+        order: 2;
+        margin: 0;
+        margin-left: 30px;
+    }
+
+    .contacts {
+        order: 0;
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .adress{
+        order: 1;
+        margin: 0;
+        margin-left: 40px;
+    }
+
+    .footer-span {
+        width: 230px;
+    }
+
+    .footer-text2 {
+        margin-right: 3px;
+    }
+  }
+

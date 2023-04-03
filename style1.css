@@ -68,6 +68,10 @@ ul.nav-list>li.active>:hover {
     padding-bottom: 7px;
 }
 
+.container {
+    display: none;
+}
+
 .our-friends-title {
     color: #545454;
     font-weight: 400;
@@ -382,4 +386,130 @@ ul.nav-list>li.active>:hover {
         margin-left: 234px;
         margin-top: 65px;
     }
+}
+
+@media (max-width:320px) {
+
+    .body {
+        max-width: 320px;
+    }
+
+    .header {
+        max-width: 320px;
+    }
+    
+    nav {
+        display: none;
+    }
+
+    .container {
+        display: block;
+        margin-top: 40px;
+        margin-right: 20px;
+    }
+
+    .b1, .b2, .b3 {
+        width: 30px;
+        height: 2px;
+        background-color: #f1cdb3;
+        margin: 10px 0;
+        transition: 0.3s;
+    }
+
+    .our-friends {
+        max-width: 320px;
+        height: 1649px;
+    }
+
+    .scarlet {
+        display: none;
+    }
+
+    .freddie {
+        display: none;
+    }
+
+    .sophia {
+        display: none;
+    }
+
+    .charly {
+        display: none;
+    }
+
+    .timmy {
+        display: none;
+    }
+
+    .our-friends-title {
+        font-size: 25px;
+        line-height: 32.5px;
+        margin-top: 42px;
+        margin-bottom: 0;
+    }
+
+    .katrine {
+        margin-top: 42px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .jennifer {
+        margin-top: 30px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .woody {
+        margin-top: 30px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .our-pets-btn {
+        margin-left: 10px;
+    }
+
+    .footer {
+        width: 320px;
+        height: 809px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-title {
+        font-size: 25px;
+        line-height: 32.5px;
+        text-align: center;
+    }
+
+    .footer-img {
+        width: 260px;
+        height: 269px;
+        order: 2;
+        margin: 0;
+        margin-left: 30px;
+    }
+
+    .contacts {
+        order: 0;
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .adress{
+        order: 1;
+        margin: 0;
+        margin-left: 40px;
+    }
+
+    .footer-span {
+        width: 230px;
+    }
+
+    .footer-text2 {
+        margin-right: 3px;
+    }
+
 }

@@ -7,6 +7,13 @@ body {
     margin: auto;
 }
 
+.body-wrapped {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -68,7 +75,7 @@ ul.nav-list>li.active>:hover {
     padding-bottom: 7px;
 }
 
-.container {
+.burger {
     display: none;
 }
 
@@ -388,6 +395,91 @@ ul.nav-list>li.active>:hover {
     }
 }
 
+@media (max-width:767px) {
+    .menu {
+        position: absolute;
+        right: -320px;
+        transition: all .5s;
+        top: 0;
+        width: 320px;
+        height: 100vh;
+        background-color: #f6f6f6;
+        text-align: center;
+        visibility: hidden;
+    }
+
+    .overflow-body {
+        overflow: hidden;
+        height: 100%;
+   }
+
+    .header.open .menu {
+        transform: translateX(-100%);
+        visibility: visible;
+        transition: transform .5s;
+    }
+
+    .nav-list {
+        display: block;
+        margin-top: 248px;
+    }
+
+    .burger {
+        display: block;
+        position: relative;
+        margin-top: 40px;
+        margin-right: 20px;
+        width: 30px;
+        height: 40px;
+    }
+
+    .b1, .b2, .b3 {
+        width: 30px;
+        height: 2px;
+        background-color: #000000;
+        margin: 10px 0;
+        position: absolute;
+        transition: opacity .25s, transform .5s;
+    }
+
+    .b1 {
+        transform: translateY(-10px);
+
+    }
+
+    .b3 {
+        transform: translateY(10px);
+    }
+
+    /*Крест*/
+
+    .header.open .b1 {
+        opacity: 0;
+    }
+
+    .header.open .b2 {
+        transform: rotate(45deg);
+    }
+
+    .header.open .b3 {
+        transform: rotate(-45deg);
+    }
+
+    .link {
+        display: block;
+    }
+
+    ul.nav-list>li {
+        font-size: 32px;
+        margin: 0, 0, 43px, 0;
+    }
+    
+    .shadowed-background {
+        background:rgba(0,0,0,.2);
+    }
+}
+
+
 @media (max-width:320px) {
 
     .body {
@@ -398,24 +490,6 @@ ul.nav-list>li.active>:hover {
         max-width: 320px;
     }
     
-    nav {
-        display: none;
-    }
-
-    .container {
-        display: block;
-        margin-top: 40px;
-        margin-right: 20px;
-    }
-
-    .b1, .b2, .b3 {
-        width: 30px;
-        height: 2px;
-        background-color: #f1cdb3;
-        margin: 10px 0;
-        transition: 0.3s;
-    }
-
     .our-friends {
         max-width: 320px;
         height: 1649px;

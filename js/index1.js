@@ -18,12 +18,10 @@ const petDesc = document.querySelector('.popup-pet-desc');
 
 burger.addEventListener('click', function() {
     header.classList.toggle('open');
-    body.classList.toggle('overflow-body');
 })
 
 document.querySelector('.nav-list').addEventListener('click', function() {
     header.classList.toggle('open');
-    body.classList.toggle('overflow-body');
 })
 
 
@@ -113,3 +111,7 @@ popupBtn.addEventListener('click', function() {
     popup.classList.remove('popup-visible');
     body.classList.remove('overflow-body');
 })
+
+if(body.width > `${767}px`) {
+    body.classList.remove('overflow-body');
+}

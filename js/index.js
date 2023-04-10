@@ -14,12 +14,10 @@ const petDesc = document.querySelector('.popup-pet-desc');
 
 burger.addEventListener('click', function() {
     header.classList.toggle('open');
-    body.classList.toggle('overflow-body');
 })
 
 document.querySelector('.nav-list').addEventListener('click', function() {
     header.classList.toggle('open');
-    body.classList.toggle('overflow-body');
 })
 
 katrine.addEventListener('click', function() {

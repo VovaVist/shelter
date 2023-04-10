@@ -7,6 +7,12 @@ html {
     margin: auto;
 }
 
+.body-wrapped {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
 .link {
     text-decoration: none;
     color: #cdcdcd;
@@ -23,7 +29,7 @@ html {
     margin-right: 40px;
 }
 
-.container {
+.burger {
     display: none;
 }
 
@@ -468,6 +474,116 @@ ul.nav-list>li.active>:hover {
     padding-bottom: 6px;
 }
 
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.popup-body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+
+.popup-content {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 500px;
+    border-radius: 9px;
+    background-color: #fafafa;
+}
+
+.popup-img {
+    width: 490px;
+    height: 490px;
+}
+
+.popup-text {
+    margin-right: 20px;
+}
+
+.popup-title {
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: 0.06em;
+    margin-top: 50px;
+}
+
+.popup-subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    margin-top: 10px;
+}
+
+.popup-pet-desc {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16.5px;
+    letter-spacing: 0.06em;
+    margin-top: 40px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.popup-pet-spec {
+    font-size: 15px;
+    line-height: 16.5px;
+    letter-spacing: 0.06em;
+}
+
+.popup-age {
+    margin-top: 40px;
+}
+
+.popup-inoculations{
+    margin-top: 11px;
+}
+
+.popup-diseases {
+    margin-top: 11px;
+}
+
+.popup-parasites {
+    margin-top: 11px;
+}
+
+.popup-btn {
+    margin-bottom: 550px;
+    width: 52px;
+    height: 52px;
+    border: 2px solid #f1cdb3;
+    border-radius: 100px;
+    background: url(assets/img/Vector.svg) no-repeat;
+    background-position: center;
+}
+
+.popup-btn:hover {
+    background-color: #f1cdb3;
+    transition: all 0.5s ease;
+}
+
+.popup-visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.overflow-body {
+    overflow: hidden;
+    height: 100%;
+}
+
 @media (max-width:768px) {
     .body {
         max-width: 768px;
@@ -612,6 +728,88 @@ ul.nav-list>li.active>:hover {
         margin-left: 234px;
         margin-top: 65px;
     }
+
+   
+  }
+
+  @media (max-width:767px) {
+    .menu {
+        position: absolute;
+        right: -320px;
+        transition: all .5s;
+        top: 0;
+        width: 320px;
+        height: 100vh;
+        background-color: #292929;
+        text-align: center;
+        visibility: hidden;
+    }
+
+    .header.open .menu {
+        transform: translateX(-100%);
+        visibility: visible;
+        transition: transform .5s;
+    }
+
+    .nav-list {
+        display: block;
+        margin-top: 248px;
+    }
+
+    .burger {
+        display: block;
+        position: relative;
+        margin-top: 40px;
+        margin-right: 20px;
+        width: 30px;
+        height: 40px;
+    }
+
+    .b1, .b2, .b3 {
+        width: 30px;
+        height: 2px;
+        background-color: #f1cdb3;
+        margin: 10px 0;
+        position: absolute;
+        transition: opacity .25s, transform .5s;
+    }
+
+    .b1 {
+        transform: translateY(-10px);
+
+    }
+
+    .b3 {
+        transform: translateY(10px);
+    }
+
+    /*Крест*/
+
+    .header.open .b1 {
+        opacity: 0;
+    }
+
+    .header.open .b2 {
+        transform: rotate(45deg);
+    }
+
+    .header.open .b3 {
+        transform: rotate(-45deg)
+    }
+
+    .overflow-body {
+        overflow: hidden;
+        height: 100%;
+   }
+
+    .link {
+        display: block;
+    }
+
+    ul.nav-list>li {
+        font-size: 32px;
+        margin: 0, 0, 43px, 0;
+    }
   }
 
   @media (max-width:320px) {
@@ -622,24 +820,6 @@ ul.nav-list>li.active>:hover {
 
     .header {
         width: 320px;
-    }
-
-    nav {
-        display: none;
-    }
-
-    .container {
-        display: block;
-        margin-top: 40px;
-        margin-right: 20px;
-    }
-
-    .b1, .b2, .b3 {
-        width: 30px;
-        height: 2px;
-        background-color: #f1cdb3;
-        margin: 10px 0;
-        transition: 0.3s;
     }
 
     .wrapped-sections {

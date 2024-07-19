@@ -102,6 +102,7 @@ body {
     width: 698px;
     height: 728px;
     margin-top: 90px;
+    margin-right: 40px;
 }
 
 .header-and-not-only-wrapper {
@@ -158,4 +159,121 @@ body {
     line-height: 24px;
     color: #4C4C4C;
 }
+
+.our-friends {
+    background-color: #F6F6F6;
+    overflow: auto;
+}
+
+.our-friends-title {
+    width: 400px;
+    margin-top: 80px;
+    margin-left: 440px;
+    text-align: center;
+}
+
+.our-friends-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.pet-img {
+    width: 270px;
+    height: 270px; 
+    border-radius: 9px, 9px, 0px, 0px; 
+}
+
+.pet-card-content {
+    height: 165px;
+    width: 270px;
+    background-color: #FAFAFA;
+    border-radius: 0 0 9px 9px;
+    overflow: auto;
+}
+
+.pet-name {
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 22.72px;
+    letter-spacing: 1.2px;
+    text-align: center;
+}
+
+.pet-card-btn {
+    display: block;
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-family: Georgia, serif;
+    margin-top: 30px;
+    margin-left: 41.5px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.1px;
+    letter-spacing: 1.02px;
+    transition: 1s;
+}
+
+.pet-card-btn:hover {
+    background-color: #FDDCC4;
+}
+
+.get-to-know-btn {
+    display: block;
+    width: 261px;
+    height: 52px;
+    background-color:#F1CDB3;
+    border-radius: 100px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.1px;
+    letter-spacing: 1.02px;
+}
+
+.left-arrow-btn {
+    width: 52px;
+    height: 52px;
+    margin-left: 40px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    transition: 1s;
+}
+
+.right-arrow-btn {
+    width: 52px;
+    height: 52px;
+    margin-right: 40px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    transition: 1s;
+}
+
+.get-to-know-btn {
+    margin-left: 510px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    transition: 1s;
+}
+
+.get-to-know-btn:hover {
+    background-color: #FDDCC4;
+}
+
+.arrow-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-btn:hover {
+    background-color: #FDDCC4;
+}
+
+
 

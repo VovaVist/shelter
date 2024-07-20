@@ -6,6 +6,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    background: url(/assets/png/noise_transparent@2x.png),radial-gradient( #5B483A, #262425);
 }
 
 .logo-title {
@@ -40,7 +41,6 @@ body {
 
 .nav-list:last-child {
     margin-right: 40px;
-    
 }
 
 .nav-list-item {
@@ -50,11 +50,19 @@ body {
     font-size: 15px;
     line-height: 24px;
     color: #CDCDCD;
+    cursor: pointer;
+}
+
+.nav-list-item:nth-child(1) {
+    color: #FAFAFA;
+    border-bottom: 3px solid #F1CDB3;
+    padding-bottom: 5px;
 }
 
 .not-only {
     display: flex;
     justify-content: space-between;
+    background: url(/assets/png/noise_transparent@2x.png),radial-gradient( #5B483A, #262425);
 }
 
 .not-only-title {
@@ -105,9 +113,9 @@ body {
     margin-right: 40px;
 }
 
-.header-and-not-only-wrapper {
-    background: url(/assets/png/noise_transparent@2x.png),radial-gradient( #5B483A, #262425);;
-}
+/* .header-and-not-only-wrapper {
+    background: url(/assets/png/noise_transparent@2x.png),radial-gradient( #5B483A, #262425);
+} */
 
 .about {
     display: flex;
@@ -201,6 +209,7 @@ body {
     line-height: 22.72px;
     letter-spacing: 1.2px;
     text-align: center;
+    color: #545454;
 }
 
 .pet-card-btn {
@@ -217,6 +226,7 @@ body {
     line-height: 22.1px;
     letter-spacing: 1.02px;
     transition: 1s;
+    color: #292929;
 }
 
 .pet-card-btn:hover {
@@ -234,6 +244,8 @@ body {
     font-size: 17px;
     line-height: 22.1px;
     letter-spacing: 1.02px;
+    color: #292929;
+    
 }
 
 .left-arrow-btn {
@@ -275,5 +287,11 @@ body {
     background-color: #FDDCC4;
 }
 
+.help-title {
+    width: 310px;
+    margin-top: 80px;
+    margin-left: 486px;
+    text-align: center;
+}
 
 

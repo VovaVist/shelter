@@ -294,4 +294,47 @@ body {
     text-align: center;
 }
 
+.help-icon-first-row {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.help-icon-first-row:not(:first-child) {
+    margin-left: 120px;
+}
+
+.help-icon-first-row:first-child {
+    margin-left: 127px;
+}
+
+.help-icon-second-row {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.help-icon-second-row:not(:first-child) {
+    margin-left: 120px;
+}
+
+.help-icon-second-row:first-child {
+    margin-left: 211px;
+}
+
+.help-icon-title {
+    padding-top: 30px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.2px;
+}
+
+.help-icon-first-wrapper {
+    display: flex;
+}
+
+.help-icon-second-wrapper {
+    display: flex;
+    margin-bottom: 100px;
+}
 

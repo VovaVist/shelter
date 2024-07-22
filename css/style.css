@@ -402,3 +402,137 @@ body {
     line-height: 18px;
     color: #B2B2B2;
 }
+
+.footer {
+    display: flex;
+    background: url(/assets/png/noise_transparent@2x.png),radial-gradient( #5B483A, #262425);
+}
+
+.contacts {
+    margin-left: 40px;
+    margin-top: 56px;
+}
+
+.address {
+    margin-left: 160px;
+    margin-top: 56px;
+}
+
+.footer-contacts-title {
+    width: 279px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: 2.1px;
+    color: #FFFFFF;
+}
+
+.footer-address-title {
+    width: 270px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: 2.1px;
+    color: #FFFFFF;
+}
+
+.footer-email {
+    margin-top: 30px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.2px;
+    color: #F1CDB3;
+}
+
+.footer-email::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    width: 40px;
+    height: 32px;
+    background-image: url(/assets/svg/icon-email.svg);
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+
+a[href^="mailto:"] {
+    color: #F1CDB3;
+}
+
+.footer-phone-number {
+    margin-top: 35px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.2px;
+    color: #F1CDB3;
+}
+
+.footer-phone-number::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    width: 40px;
+    height: 32px;
+    background-image: url(/assets/svg/icon-phone.svg);
+    margin-right: 20px;
+}
+
+a[href^="tel:"] {
+    color: #F1CDB3;
+  }
+
+.footer-first-address {
+    width: 302px;
+    margin-top: 34px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.2px;
+    color: #F1CDB3;
+}
+
+.footer-first-address::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    width: 22px;
+    height: 32px;
+    background-image: url(/assets/svg/icon-marker.svg);
+    margin-right: 20px;
+}
+
+.footer-second-address {
+    margin-top: 15px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.2px;
+    color: #F1CDB3;
+}
+
+.footer-second-address::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    width: 22px;
+    height: 32px;
+    background-image: url(/assets/svg/icon-marker.svg);
+    margin-right: 20px;
+}
+
+.footer-img {
+    margin-left: 160px;
+    margin-top: 40px;
+}

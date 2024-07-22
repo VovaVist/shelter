@@ -327,6 +327,7 @@ body {
     font-size: 20px;
     line-height: 23px;
     letter-spacing: 1.2px;
+    color: #545454;
 }
 
 .help-icon-first-wrapper {
@@ -338,3 +339,66 @@ body {
     margin-bottom: 100px;
 }
 
+.in-addiction {
+    background-color: #F6F6F6;
+    display: flex;
+}
+
+.in-addiction-img {
+    margin-top: 91px;
+    margin-left: 183px;
+    margin-right: 30px;
+}
+
+.donation-title {
+    width: 300px;
+    margin-top: 80px;
+}
+
+.bank-info {
+    margin-top: 20px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16.5px;
+    letter-spacing: 0.9px;
+    color: #545454;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 349px;
+    height: 43px;
+    background-color: #F1CDB3;
+    border-radius: 9px;
+}
+
+.card-icon {
+    width: 30px;
+    height: 23px;
+    margin-left: 15px;
+}
+
+.card-number {
+    margin-left: 15px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.2px;
+    color: #545454;
+}
+
+.donation-description {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    width: 380px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
+}

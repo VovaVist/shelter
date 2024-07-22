@@ -439,7 +439,8 @@ body {
 }
 
 .footer-email {
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-left: 20px;
     font-family: Georgia, serif;
     font-weight: 400;
     font-size: 20px;
@@ -448,16 +449,13 @@ body {
     color: #F1CDB3;
 }
 
-.footer-email::before {
-    content: "";
-    display: inline-block;
-    position: relative;
-    top: 10px;
-    width: 40px;
-    height: 32px;
-    background-image: url(/assets/svg/icon-email.svg);
-    background-repeat: no-repeat;
-    margin-right: 20px;
+.email-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.email-icon {
+    margin-top: 40px;
 }
 
 a[href^="mailto:"] {
@@ -465,7 +463,8 @@ a[href^="mailto:"] {
 }
 
 .footer-phone-number {
-    margin-top: 35px;
+    margin-top: 40px;
+    margin-left: 20px;
     font-family: Georgia, serif;
     font-weight: 400;
     font-size: 20px;
@@ -474,15 +473,13 @@ a[href^="mailto:"] {
     color: #F1CDB3;
 }
 
-.footer-phone-number::before {
-    content: "";
-    display: inline-block;
-    position: relative;
-    top: 10px;
-    width: 40px;
-    height: 32px;
-    background-image: url(/assets/svg/icon-phone.svg);
-    margin-right: 20px;
+.phone-number-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.phone-number-icon {
+    margin-top: 39px;
 }
 
 a[href^="tel:"] {
@@ -491,7 +488,8 @@ a[href^="tel:"] {
 
 .footer-first-address {
     width: 302px;
-    margin-top: 34px;
+    margin-top: 30px;
+    margin-left: 20px;
     font-family: Georgia, serif;
     font-weight: 400;
     font-size: 20px;
@@ -500,19 +498,19 @@ a[href^="tel:"] {
     color: #F1CDB3;
 }
 
-.footer-first-address::before {
-    content: "";
-    display: inline-block;
-    position: relative;
-    top: 15px;
-    width: 22px;
-    height: 32px;
-    background-image: url(/assets/svg/icon-marker.svg);
-    margin-right: 20px;
+.first-address-wrapper {
+    display: flex;
+    align-items: center;
 }
+
+.first-address-icon {
+    margin-top: 24px;
+}
+
 
 .footer-second-address {
-    margin-top: 15px;
+    margin-top: 31px;
+    margin-left: 20px;
     font-family: Georgia, serif;
     font-weight: 400;
     font-size: 20px;
@@ -521,18 +519,19 @@ a[href^="tel:"] {
     color: #F1CDB3;
 }
 
-.footer-second-address::before {
-    content: "";
-    display: inline-block;
-    position: relative;
-    top: 10px;
-    width: 22px;
-    height: 32px;
-    background-image: url(/assets/svg/icon-marker.svg);
-    margin-right: 20px;
+.second-address-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.second-address-icon{
+    margin-top: 31px;
 }
 
 .footer-img {
     margin-left: 160px;
     margin-top: 40px;
 }
+
+
+

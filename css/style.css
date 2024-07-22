@@ -182,7 +182,7 @@ body {
 
 .our-friends-wrapper {
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
     margin-top: 60px;
 }
@@ -199,6 +199,19 @@ body {
     background-color: #FAFAFA;
     border-radius: 0 0 9px 9px;
     overflow: auto;
+}
+
+.pet-katrine {
+    margin-left: 53px;
+}
+
+.pet-jennifer {
+    margin-left: 90px;
+}
+
+.pet-woody {
+    margin-left: 90px;
+    margin-right: 53px;
 }
 
 .pet-name {
@@ -488,7 +501,7 @@ a[href^="tel:"] {
 
 .footer-first-address {
     width: 302px;
-    margin-top: 30px;
+    margin-top: 31px;
     margin-left: 20px;
     font-family: Georgia, serif;
     font-weight: 400;
@@ -504,12 +517,12 @@ a[href^="tel:"] {
 }
 
 .first-address-icon {
-    margin-top: 24px;
+    margin-top: 29px;
 }
 
 
 .footer-second-address {
-    margin-top: 31px;
+    margin-top: 40px;
     margin-left: 20px;
     font-family: Georgia, serif;
     font-weight: 400;
@@ -532,6 +545,8 @@ a[href^="tel:"] {
     margin-left: 160px;
     margin-top: 40px;
 }
+
+
 
 
 

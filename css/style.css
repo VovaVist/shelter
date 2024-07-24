@@ -1,11 +1,22 @@
+html, body { 
+    scroll-behavior: smooth
+}
+
 body {
     width: 1280px;
     margin: 0 auto;
 }
 
+p > a {
+    color: #F1CDB3;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
+}
+
+.heading-wrapper {
     background: url(/assets/png/noise_transparent@2x.png),radial-gradient( #5B483A, #262425);
 }
 
@@ -36,7 +47,7 @@ body {
 }
 
 .nav-list li:not(:last-child) {
-    margin-right: 35px;
+    margin-right: 32px;
 }
 
 .nav-list:last-child {
@@ -53,7 +64,7 @@ body {
     cursor: pointer;
 }
 
-.nav-list-item:nth-child(1) {
+.nav-list-item-underline {
     color: #FAFAFA;
     border-bottom: 3px solid #F1CDB3;
     padding-bottom: 5px;
@@ -62,7 +73,6 @@ body {
 .not-only {
     display: flex;
     justify-content: space-between;
-    background: url(/assets/png/noise_transparent@2x.png),radial-gradient( #5B483A, #262425);
 }
 
 .not-only-title {
@@ -87,7 +97,7 @@ body {
     color: #CDCDCD;
 }
 
-.btn {
+.not-only-btn{
     width: 207px;
     height: 52px;
     margin-top: 42px;
@@ -102,7 +112,7 @@ body {
     transition: 1s;
 }
 
-.btn:hover {
+.not-only-btn:hover {
     background-color: #FDDCC4;
 }
 
@@ -244,6 +254,10 @@ body {
 
 .pet-card-btn:hover {
     background-color: #FDDCC4;
+}
+
+.pet-card:hover {
+    
 }
 
 .get-to-know-btn {

@@ -1,6 +1,14 @@
+html, body { 
+    scroll-behavior: smooth
+}
+
 body {
     width: 1280px;
     margin: 0 auto;
+}
+
+p > a {
+    color: #545454
 }
 
 .header {
@@ -38,7 +46,7 @@ body {
 }
 
 .nav-list li:not(:last-child) {
-    margin-right: 35px;
+    margin-right: 32px;
 }
 
 .nav-list:last-child {
@@ -85,7 +93,7 @@ body {
     margin-top: 80px;
     margin-left: 440px;
     text-align: center;
-    margin-bottom: 45px;
+    margin-bottom: 58px;
 }
 
 .pet-img {

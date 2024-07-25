@@ -2,7 +2,7 @@ html, body {
     scroll-behavior: smooth
 }
 
-body {
+.container {
     width: 1280px;
     margin: 0 auto;
 }
@@ -12,9 +12,13 @@ p > a {
 }
 
 .header {
+    
+    background-color: #FFFFFF;
+}
+
+.header-wrapper {
     display: flex;
     justify-content: space-between;
-    background-color: #FFFFFF;
 }
 
 
@@ -61,6 +65,11 @@ p > a {
     line-height: 24px;
     color: #545454;
     cursor: pointer;
+    transition: 1s;
+}
+
+.nav-list-item:hover{
+    color: #292929
 }
 
 .nav-list-item:nth-child(2) {
@@ -125,7 +134,7 @@ p > a {
     display: block;
     width: 187px;
     height: 52px;
-    border: 2px solid #F1CDB3;
+    border: 2px solid #FDDCC4;
     border-radius: 100px;
     font-family: Georgia, serif;
     margin-top: 30px;
@@ -138,12 +147,18 @@ p > a {
     color: #292929;
 }
 
-.pet-card-btn:hover {
+.pet-card {
+    margin-left: 40px;
+    transition: 1s;
+}
+
+.pet-card:hover .pet-card-btn {
     background-color: #FDDCC4;
 }
 
-.pet-card {
-    margin-left: 40px;
+.pet-card:hover {
+    cursor: pointer;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
 }
 
 .pet-card:nth-child(n+5):nth-child(-n+8) {
@@ -205,8 +220,10 @@ p > a {
  }
 
 .footer {
-    display: flex;
     background: url(/assets/png/noise_transparent@2x.png),radial-gradient( #5B483A, #262425);
+}
+.footer-wrapper {
+    display: flex;
 }
 
 .contacts {

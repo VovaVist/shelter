@@ -76,6 +76,7 @@ p > a {
     color: #292929;
     border-bottom: 3px solid #F1CDB3;
     padding-bottom: 5px;
+    cursor: default;
 }
 
 .basic-title {
@@ -117,6 +118,7 @@ p > a {
     background-color: #FAFAFA;
     border-radius: 0 0 9px 9px;
     overflow: auto;
+    transition: 1s;
 }
 
 .pet-name {
@@ -156,6 +158,10 @@ p > a {
     background-color: #FDDCC4;
 }
 
+.pet-card:hover .pet-card-content {
+    background-color: #FFFFFF;
+}
+
 .pet-card:hover {
     cursor: pointer;
     box-shadow: 0px 2px 35px 14px #0D0D0D0A;
@@ -184,12 +190,14 @@ p > a {
 .our-friends-btn:nth-child(1) {
     border-color:#CDCDCD;
     background: url(/assets/svg/2-left-light-arrow.svg) no-repeat center;
+    cursor: default;
 }
 
 .our-friends-btn:nth-child(2) {
     margin-left: 20px;
     border-color:#CDCDCD;
     background: url(/assets/svg/left-light-arrow.svg) no-repeat center;
+    cursor: default;
 }
 
 .our-friends-btn:nth-child(3) {
@@ -200,6 +208,7 @@ p > a {
     font-size: 20px;
     line-height: 23px;
     letter-spacing: 1.2px;
+    cursor: default;
 }
 
 .our-friends-btn:nth-child(4) {
@@ -349,4 +358,12 @@ a[href^="tel:"] {
 .footer-img {
     margin-left: 120px;
     margin-top: 40px;
+}
+
+.footer-interactive-element {
+    transition: 1s;
+}
+
+.footer-interactive-element:hover {
+    color: #f5c09b;
 }

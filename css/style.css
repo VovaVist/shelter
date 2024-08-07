@@ -353,30 +353,41 @@ li .nav-list-item:hover{
     text-align: center;
 }
 
-.help-icon-first-row {
+.help-icons-wrapper{
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     margin-top: 60px;
+
 }
 
-.help-icon-first-row:not(:first-child) {
+.help-icon {
     margin-left: 120px;
 }
 
-.help-icon-first-row:first-child {
+.help-icon:first-child {
     margin-left: 127px;
 }
 
-.help-icon-second-row {
-    text-align: center;
-    margin-top: 55px;
-}
-
-.help-icon-second-row:not(:first-child) {
-    margin-left: 120px;
-}
-
-.help-icon-second-row:first-child {
+.help-icon:nth-child(6) {
     margin-left: 211px;
+    margin-top: 55px;
+    margin-bottom: 100px;
+}
+
+.help-icon:nth-child(7) {
+    margin-top: 55px;
+    margin-bottom: 100px;
+}
+
+.help-icon:nth-child(8) {
+    margin-top: 55px;
+    margin-bottom: 100px;
+}
+
+.help-icon:nth-child(9) {
+    margin-top: 55px;
+    margin-bottom: 100px;
 }
 
 .help-icon-title {
@@ -387,15 +398,6 @@ li .nav-list-item:hover{
     line-height: 23px;
     letter-spacing: 1.2px;
     color: #545454;
-}
-
-.help-icon-first-wrapper {
-    display: flex;
-}
-
-.help-icon-second-wrapper {
-    display: flex;
-    margin-bottom: 100px;
 }
 
 .in-addiction {
@@ -612,7 +614,8 @@ a[href^="tel:"] {
     color: #f5c09b;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+
     .container {
         width: 100%;
         margin: 0 auto;
@@ -643,6 +646,7 @@ a[href^="tel:"] {
         height: 593px;
         margin-left: 169px;
         margin-top: 100px;
+        margin-right: 0;
     }
 
     .not-only{
@@ -680,7 +684,16 @@ a[href^="tel:"] {
     .about-title {
         width: 370px;
         margin-top: 80px;
+        margin-right: 0;
     } 
+
+    .about-p1 {
+        margin-right: 0; 
+    }
+    
+    .about-p2 {
+        margin-right: 0;
+    }
 
     .about-text-content {
         margin-left: 169px;
@@ -725,43 +738,97 @@ a[href^="tel:"] {
         margin-left: 230px;
     }
 
-    .help-icon-first-wrapper {
-        display: flex;
+    .help-icon {
+        margin-left: 60px;
+        width: 170px;
+        height: 113px;
+    }
+
+    .help-icon:first-child {
+        margin-left: 69px;
+    }
+
+    .help-icon:nth-child(4) {
+        margin-left: 69px;
+        margin-top: 55px;
+    }
+
+    .help-icon:nth-child(5) {
+        margin-left: 60px;
+        margin-top: 55px;
+    }
+
+    .help-icon:nth-child(6) {
+        margin-left: 60px;
+        margin-bottom: 0;
+        margin-top: 55px;
+    }
+
+    .help-icon:nth-child(7) {
+        margin-left: 69px;
+        margin-bottom: 100px;
+        margin-top: 55px;
+    }
+
+    .help-icon:nth-child(8) {
+        margin-left: 60px;
+        margin-bottom: 100px;
+        margin-top: 55px;
+    }
+
+    .help-icon:nth-child(9) {
+        margin-left: 60px;
+        margin-bottom: 100px;
+        margin-top: 55px;
+    }
+
+    .in-addiction-img {
+        width: 505px;
+        height: 261px;
+        margin-top: 60px;
+        margin-left: 131px;
+        margin-right: 0;
+        margin-bottom: 100px;
+    }
+
+
+    .in-addiction-wrapper {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .donation-content {
+        margin-left: 194px;
+    }
+
+    .donation-description {
+        margin-bottom: 0;
+    }
+
+    .footer-wrapper {
         flex-wrap: wrap;
     }
+    
+    .footer-img {
+       width: 300px;
+       height: 310px;
+       margin-top: 65px;
+       margin-left: 234px;
+    }
 
-    .help-icon-first-row:not(:first-child) {
+    .contacts {
+        margin-left: 64px;
+        margin-top: 30px;
+    }
+
+    .address {
         margin-left: 60px;
+        margin-top: 30px;
     }
-
-    .help-icon-first-row:first-child {
-        margin-left: 69px;
-    }
-
-    .help-icon-first-row  {
-        width: 170px;
-        height: 113px;
-    }
-
     
 
-    .help-icon-first-row:nth-child(4) {
-        margin-left: 69px;
-    }
-
-    .help-icon-second-row {
-        width: 170px;
-        height: 113px;
-    }
-
-    .help-icon-second-row:first-child  {
-        margin-left: 69px;
-    }
 
     
-
-    
-
 
 
 }

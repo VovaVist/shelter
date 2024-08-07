@@ -612,6 +612,160 @@ a[href^="tel:"] {
     color: #f5c09b;
 }
 
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .logo-title {
+        margin-left: 30px;
+    }
+
+    .logo-subtitle {
+        margin-left: 34px;
+    }
+
+    .nav-list li:not(:last-child) {
+        margin-right: 32px;
+    }
+
+    .nav-list:last-child {
+        margin-right: 30px;
+    }
+
+    .not-only-img {
+        width: 569px;
+        height: 593px;
+        margin-left: 169px;
+        margin-top: 100px;
+    }
+
+    .not-only{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .not-only-title {
+        margin-top: 60px;
+        margin-left: 154px;
+    }
+
+    .not-only-text {
+        margin-top: 42px;
+        margin-left: 154px;
+    }
+
+    .not-only-btn{
+        margin-top: 42px;
+        margin-left: 280px;
+        
+    }
+
+    .about-wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .about-img {
+        margin-top: 80px;
+        margin-left: 234px;  
+    }
+
+    .about-title {
+        width: 370px;
+        margin-top: 80px;
+    } 
+
+    .about-text-content {
+        margin-left: 169px;
+    }
+
+    .pet-woody {
+        display: none;
+    }
+
+    .our-friends-title {
+        margin-top: 80px;
+        margin-left: 184px;
+    }
+
+    .left-arrow-btn {
+        margin-left: 30px;
+    }
+
+    .pet-card {
+        margin: 0;
+    }
+
+    .pet-katrine {
+        margin-left: 12px;
+    }
+
+    .pet-jennifer {
+        margin-left: 40px;
+    }
+
+
+    .get-to-know-btn {
+        margin-left: 254px;
+    }
+
+    .right-arrow-btn {
+        margin-right: 0;
+        margin-left: 12px;
+    }
+
+    .help-title {
+        margin-left: 230px;
+    }
+
+    .help-icon-first-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .help-icon-first-row:not(:first-child) {
+        margin-left: 60px;
+    }
+
+    .help-icon-first-row:first-child {
+        margin-left: 69px;
+    }
+
+    .help-icon-first-row  {
+        width: 170px;
+        height: 113px;
+    }
+
+    
+
+    .help-icon-first-row:nth-child(4) {
+        margin-left: 69px;
+    }
+
+    .help-icon-second-row {
+        width: 170px;
+        height: 113px;
+    }
+
+    .help-icon-second-row:first-child  {
+        margin-left: 69px;
+    }
+
+    
+
+    
+
+
+
+}
+
 
 
 

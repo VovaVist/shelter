@@ -828,6 +828,148 @@ a[href^="tel:"] {
 }
 
 
+@media screen and (max-width: 320px) {
+    
+
+    .nav {
+        display: none;
+    }
+
+    .logo-title {
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .logo-subtitle {
+        margin-left: 24px;
+        margin-top: 10px;
+    }
+
+    .not-only-title {
+        width: 200px;
+        margin-top: 60px;
+        margin-left: 0;
+        font-size: 25px;
+        line-height: 32.5px;
+        text-align: center;
+        letter-spacing: 0.06em;
+    }
+
+    .not-only-text {
+        width: 300px;
+        margin-top: 42px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .not-only-text-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .not-only-btn{
+        margin-top: 42px;
+        margin-left: 0px;
+    }
+
+    .not-only-img {
+        width: 260px;
+        height: 271.77px;
+        margin-left: 50px;
+        margin-top: 105px;
+    }
+
+    .about-title {
+        width: 250px;
+        margin-top: 42px;
+        margin-right: 0px;
+        margin-left: 11px;
+        font-size: 25px;
+        letter-spacing: 0.06em;
+        line-height: 32.5px;
+        text-align: center;
+    } 
+
+    .about-text-content {
+        margin-left: 0;
+    }
+
+    .about-p1 {
+        width: 270px;
+        margin-top: 25px;
+        margin-right: 0px;
+        text-align: justify;
+    }
+    
+    .about-p2 {
+        width: 270px;
+        margin-top: 22px;
+        margin-right: 0px; 
+        text-align: justify; 
+    }
+
+    .about-img {
+        width: 260px;
+        height: 353.6px;
+        margin-left: 0;
+        margin-top: 42px;
+        margin-bottom: 42.4px;
+    }
+
+    .about-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pet-jennifer {
+        display: none;
+    }
+
+    .our-friends-title {
+        width: 300px;
+        margin-top: 42px;
+        margin-left: 10px;
+        text-align: center;
+        margin-bottom: 0;
+        font-size: 25px;
+        line-height: 32.5px;
+        letter-spacing: 0.06em;
+    }
+
+    .our-friends-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .pet-katrine {
+        order: 1;
+        margin-left: 25px;
+    }
+
+    .left-arrow-btn {
+        margin-left: 68px;
+        order: 2;
+        margin-top: 20px;
+    }
+
+    .right-arrow-btn {
+        margin-right: 0px;
+        order: 3;
+        margin-top: 20px;
+        margin-left: 80px;  
+    }
+
+    .get-to-know-btn {
+        margin-top: 42px;
+        margin-left: 30px;
+        margin-bottom: 42px;
+    }
+    
+    
+}
+
 
 
 

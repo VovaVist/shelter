@@ -7,12 +7,24 @@ html, body {
     margin: 0 auto;
 }
 
+.burger-menu {
+    display: none;
+    margin-top: 39px;
+    margin-right: 20px;
+}
+
+.burger-menu-item {
+    width: 30px;
+    height: 2px;
+    background-color: #F1CDB3;
+    margin-top: 10px;
+}
+
 p > a {
     color: #545454
 }
 
 .header {
-    
     background-color: #FFFFFF;
 }
 
@@ -472,5 +484,17 @@ a[href^="tel:"] {
     .address {
         margin-left: 60px;
         margin-top: 30px;
+    }
+
+    .footer-contacts-title {
+
+        width: 280px;
+        font-size: 100px;
+        line-height: 32.5px;
+        letter-spacing: 0.06em;
+    }
+
+    .footer-wrapper {
+        
     }
 }

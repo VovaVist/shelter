@@ -6,6 +6,19 @@ p > a {
     color: #F1CDB3;
 }
 
+.burger-menu {
+    display: none;
+    margin-top: 39px;
+    margin-right: 20px;
+}
+
+.burger-menu-item {
+    width: 30px;
+    height: 2px;
+    background-color: #F1CDB3;
+    margin-top: 10px;
+}
+
 .container {
     width: 1280px;
     margin: 0 auto;
@@ -19,6 +32,7 @@ p > a {
 
 .heading-wrapper {
     background: url(/assets/png/noise_transparent@2x.png),radial-gradient( #5B483A, #262425);
+    width: 100%;
 }
 
 .logo-title {
@@ -621,10 +635,6 @@ a[href^="tel:"] {
         margin: 0 auto;
     }
 
-    .header {
-        width: 100%;
-    }
-
     .logo-title {
         margin-left: 30px;
     }
@@ -828,8 +838,11 @@ a[href^="tel:"] {
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 690px) {
     
+    .burger-menu {
+        display: block;
+    }
 
     .nav {
         display: none;
@@ -966,7 +979,186 @@ a[href^="tel:"] {
         margin-left: 30px;
         margin-bottom: 42px;
     }
+
+    .help-title {
+        width: 222px;
+        margin-top: 42px;
+        margin-left: 50px;
+        text-align: center;
+        font-size: 25px;
+        line-height: 32.5px;
+        letter-spacing: 0.06em;
+    }
+
+    .help-icon {
+        width: 130px;
+        height: 87px;
+    }
+
+    .help-icon-title {
+        padding-top: 20px;
+        font-family: Georgia, serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 16.5px;
+        letter-spacing: 0.06em;
+        color: #545454;
+    }
     
+    .help-icon:nth-child(1) {
+        margin: 0 0 0 15px;
+    }
+
+    .help-icon:nth-child(2) {
+        margin: 0 0 0 30px;
+    }
+
+    .help-icon:nth-child(3) {
+        margin: 30px 0 0 15px;
+    }
+
+    .help-icon:nth-child(4) {
+        margin: 30px 0 0 30px;
+    }
+
+    .help-icon:nth-child(5) {
+        margin: 30px 0 0 15px;
+    }
+
+    .help-icon:nth-child(6) {
+        margin: 30px 0 0 30px;
+    }
+
+    .help-icon:nth-child(7) {
+        margin: 30px 0 0 15px;
+    }
+
+    .help-icon:nth-child(8) {
+        margin: 30px 0 0 30px;
+    }
+
+    .help-icon:nth-child(9) {
+        margin: 30px 0 42px 15px;
+    }
+
+    .help-icon-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .help-icons-wrapper{
+        margin-top: 42px;
+    
+    }
+
+    .donation-title {
+        width: 229px;
+        margin-top: 42px;
+        text-align: center;
+        font-size: 25px;
+        line-height: 32.5px;
+        letter-spacing: 0.06em;
+        margin-left: 50px;
+    }
+
+    .donation-content {
+        margin-left: 0;   
+    }
+
+
+    .bank-info {
+        margin-top: 20px;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0;
+        margin-left: 23px;
+    }
+
+    .card {
+        margin-top: 20px;
+        width: 281px;
+        height: 43px;
+        margin-left: 19px;
+    }
+
+    .card-number {
+        margin-left: 15px;
+        font-size: 15px;
+        line-height: 16.5px;
+        letter-spacing: 0.06em;
+    }
+
+    .donation-description {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 42px;
+        width: 280px;
+        font-size: 12px;
+        line-height: 18px; 
+        text-align: justify; 
+    }
+
+    .in-addiction-img {
+        width: 260px;
+        height: 135.2px;
+        margin-top: 0;
+        margin-left: 30px;
+        margin-bottom: 42px;
+    }
+    
+    .footer-contacts-title {
+        font-size: 25px;
+        line-height: 32.5px;
+        letter-spacing: 0.06em;
+        text-align: center;
+    }
+
+    .footer-address-title {
+        font-size: 25px;
+        line-height: 32.5px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        margin-left: 17px;
+    }
+
+    .contacts {
+        margin-top: 30px;
+        margin-left: 21px;
+    }
+
+    .address {
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+
+    .footer-img {
+        margin-left: 30px;
+        width: 260px;
+        height: 269px;
+        margin-top: 43px;
+    }
+
+    .footer-first-address {
+        width: 258px;
+        margin-left: 20px;
+        margin-top: 41px;
+    }
+
+    .email-wrapper {
+        margin-left: 14px;
+    }
+    
+    .phone-number-wrapper {
+        margin-left: 18px;
+    }
+    
+    .first-address-icon {
+        margin-top: 35px;
+    }
+
+    .second-address-icon {
+        margin-top: 38px;
+    }
     
 }
 
